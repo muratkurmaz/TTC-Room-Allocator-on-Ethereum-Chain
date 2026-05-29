@@ -1,0 +1,25 @@
+{
+  "name": "room-allocator-on-blockchain",
+  "version": "1.0.0",
+  "description": "Solidity smart contract for preference-based student room allocation using a TTC-style coordinated exchange mechanism.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "keywords": [
+    "solidity",
+    "blockchain",
+    "smart-contracts",
+    "room-allocation",
+    "top-trading-cycles",
+    "mechanism-design"
+  ],
+  "author": "Murat Kurmaz",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
